@@ -20,6 +20,15 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       width: 300px;
     }
+    .b{
+    text-decoration: none;
+    color: azure;
+    font-size: 16px;
+    background-color: #3d7ec7;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 5px;
+}
     h2 {
       text-align: center;
     }
@@ -30,6 +39,11 @@
       margin-bottom: 15px;
       border: 1px solid #ccc;
       border-radius: 3px;
+    }
+    .Login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     input[type="submit"] {
       background-color: #4caf50;
@@ -50,7 +64,9 @@
     <form action="#" method="POST">
       <input type="text" name="username" placeholder="Username" required>
       <input type="password" name="password" placeholder="Password" required>
-      <input type="submit" value="Login">
+      <div class="Login">
+        <button class="b">
+        Login</button>
     </form>
   </div>
 </body>
